@@ -10,7 +10,9 @@ namespace DemoApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola mundo!");
+            Console.WriteLine("Ingrese su nombre:");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Hola " + nombre);
         }
     }
 }
