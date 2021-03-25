@@ -10,11 +10,8 @@ namespace DemoApp
     {
         static void Main(string[] args)
         {
-<<<<<<< Updated upstream
             Console.WriteLine("Ingrese su nickname:");
-=======
-            Console.WriteLine("Enter your nickname: ");
->>>>>>> Stashed changes
+            Console.WriteLine("Enter your nickname:");
             string nombre = Console.ReadLine();
             Console.WriteLine("Hola {0}", nombre);
         }
